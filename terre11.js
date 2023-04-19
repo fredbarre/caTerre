@@ -19,4 +19,6 @@ if (hours >= 13 && hours <= 23) ushours = hours - 12;
 
 if (hours == 0) ushours = 12;
 
+if (mins == 0) mins = "00";
+
 console.log(ushours + ":" + mins + AMPM);
